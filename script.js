@@ -1,5 +1,5 @@
 //your JS code here. If required.
 function abc(){
-	alert("abc");
+	alert(arguments.callee.name);
 }
 abc();
